@@ -25,7 +25,7 @@ KIMG="$OUTDIR/Image.gz"
 export PATH="$ROOTDIR/weebx-clang/bin:$PATH"
 
 # ================= INFO =================
-KERNEL_NAME="Yoru"
+KERNEL_NAME="PhroLova"
 DEVICE="vince"
 
 # =============== DATE (WIB) ===============
