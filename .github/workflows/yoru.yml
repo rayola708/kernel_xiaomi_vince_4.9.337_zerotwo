@@ -47,11 +47,10 @@ jobs:
             tar -xf weebx-clang.tar.gz
             rm -f weebx-clang.tar.gz
 
-      - name: Setup KernelSU (Hookless)
+      - name: Fetch KernelSU-SuSFS
         run: |
           # curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -s legacy
-          curl -LSs "https://raw.githubusercontent.com/Mr-Morat/KernelSU-Next/stable/kernel/setup.sh" | bash -s syscall
-
+          curl -LSs "curl -LSs "https://raw.githubusercontent.com/MDonip/KernelSU-Next/legacy-susfs-4.9/kernel/setup.sh" | bash -s legacy-susfs-4.9 
       - name: Start Build with log
         env:
           KBUILD_BUILD_USER: "localhost"
