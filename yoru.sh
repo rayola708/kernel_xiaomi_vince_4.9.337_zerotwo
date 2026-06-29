@@ -25,7 +25,7 @@ KIMG="$OUTDIR/Image.gz"
 export PATH="$ROOTDIR/weebx-clang/bin:$PATH"
 
 # ================= INFO =================
-KERNEL_NAME="Evergreen-Kernel-V1.0-[Perf+KSU]"
+KERNEL_NAME="Evergreen-Kernel-V1.0"
 DEVICE="vince"
 
 # =============== DATE (WIB) ===============
